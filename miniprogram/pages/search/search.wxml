@@ -1,0 +1,34 @@
+
+<!--index.wxml-->  
+<form bindsubmit="formSubmit">  
+<!--提交按钮  -->  
+ <view class="weui-search-bar">
+ <view class="weui-search-bar__form">
+    <view class="weui-search-bar__box">
+      <icon class="weui-icon-search_in-box" type="search" size="14"></icon>
+      <input type="text" class="weui-search-bar__input" name="id" placeholder="请输入增高/减肥系列文章" />
+      <view class="weui-icon-clear" wx:if="{{wxSearchData.value.length > 0}}" bindtap="wxSearchClear">
+        <icon type="clear" size="14"></icon>
+      </view>
+    </view>
+  </view>
+</view>
+<view >
+     <view class="title">
+      <view class="left">热门搜索</view>
+      
+    </view>
+  <view class="tips">
+   <view class="tip">长高</view>
+   <view class="tip">锻炼</view>
+   <view class="tip">瘦身</view>
+   <view class="tip">细腰</view>
+   <view class="tip">减肥</view>
+  
+ 
+  </view>
+</view>
+  
+  <button class="button-size" style='margin-top:100rpx;'  form-type="submit" bindtap="navbtn" >搜索</button>  
+  </form>
+  

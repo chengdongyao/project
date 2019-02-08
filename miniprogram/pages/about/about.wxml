@@ -1,0 +1,12 @@
+<view class="title">.开发者</view>
+<view class="content">四川大学 程东耀</view>
+<view class="content">海南大学 符标安</view>
+<view class="title" >.技术支持</view>
+<view class="content">腾讯公司</view>
+<view class="title">.开发者联系方式</view>
+<view class="content">Tel:17760474359</view>
+<view class="content">E-mail:859382115@qq.com</view>
+<view class="title">.赞赏</view>
+<view wx:for="{{imagelist}}" wx:for-item="image" class="previewimg">  
+        <image class="image-size" src="{{image}}" data-src="{{image}}" bindtap="previewImage"></image>  
+    </view>  

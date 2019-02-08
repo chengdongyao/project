@@ -1,0 +1,231 @@
+@import "/pages/post-item/post-item-template.wxss";
+@import "../../wxSearchView/wxSearchView.wxss";
+
+.card {
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    background-color: #ffffff;
+   
+    margin-left: 21rpx;
+    margin-right:21rpx;
+    position: relative;
+    height: 250rpx;
+}
+.card1 {
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    background-color: #ffffff;
+   
+    margin-left: 36rpx;
+    margin-right:36rpx;
+    position: relative;
+    height: 250rpx;
+}
+
+
+.content{
+  font-family: "Microsoft YaHei";
+  font-size:small;
+}
+.bg{
+  width: 100%;
+  height: 50px;
+  background-color:yellowgreen;
+  text-align: center;
+}
+  
+.logo{
+padding-top: 20px;
+color: #ffffff;
+}
+.first{
+  font-size: 24px;
+  font-weight: bold;
+}
+.second{
+  font-size: 14px;
+}
+.search{
+  height: 80rpx;
+  width: 100%;
+  
+  background-color: white;
+  border-radius:10%;
+  margin: 0 auto;
+  margin-top: 0rpx;
+  font-size:35rpx;
+  line-height: 40px;
+}
+.search view{
+  text-align: center;
+  width: 100%;
+  font-size: 15px;
+  color: black;
+}
+.title{
+  padding: 10px;
+  font-size: 13px;
+  color: #999999;
+}
+.item{
+  margin-top: 10px;
+  text-align: center;
+  font-size: 15px;
+  width: 24%;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.hr{
+  
+  height: 26px;
+  margin-top: 50rpx;
+}
+.menu{
+  text-align: center;
+  margin-top: 10PX;
+  margin-bottom: 10px;
+  color: #E53D30;
+}
+.seckill{
+  display: flex;
+  flex-direction: row;
+}
+.stage{
+  width:25%;
+text-align: center;
+font-size: 12px;
+}
+.time{
+  background-color: #C81623;
+  width: 90%;
+  color: #ffffff;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 20px;
+  margin-left: 5px;
+}
+.timeDfult{
+  background-color: #f2f2f2;
+  width: 90%;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 20px;
+  margin-left: 5px;
+}
+.line{
+  border: 1px solid #f2f2f2;
+  opacity: 0.5;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.list{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.pic image{
+  width: 80px;
+  height: 100px;
+  padding: 10px;
+
+}
+.base-info{
+  font-size: 15px;
+  padding-top: 10px;
+  line-height: 20px;
+}
+  .name{
+font-size: 13px;
+font-weight: bold;
+color: #000000;
+  }
+.people{
+  color: #555555;
+  margin-top:5px;
+  margin-bottom: 5px; 
+}
+.price{
+  font-size: 22px;
+  color:#E53D30;
+}
+.org{
+  text-decoration: line-through;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.desc{
+  color: #333333;
+}
+.sale{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.saleCount{
+  width: 40%;
+  font-size: 15;
+  color: #666666;
+}
+.saleProjiess{
+  width: 60%;
+}
+.btn{
+  background: blueviolet;
+  width: 230rpx;
+  color: #ffffff;
+  height: 60rpx;
+  line-height: 25px;
+  font-size: 15px;
+  text-align: center;
+  margin-top: 10px;
+  margin-left: 239rpx;
+  border-radius: 3px;
+  margin-bottom: 10px;
+}
+.container{
+  background-color:#eee;
+  height:100vh;
+  display:flex;
+  flex-direction:column;
+  justify-content: space-around;
+  align-items: center;
+}
+  .time-banner{
+    width:375rpx;
+    height:375rpx;
+    border-radius:50%;
+  
+
+}
+.nav-hover{
+  color:red;
+}
+
+.healthyliving{
+  
+  display:flex;
+}
+.healthyliving-details{
+  display:flex;
+  flex-direction:column;
+  width:550rpx;
+}
+.healthyliving-image{
+  width:200rpx;
+  height:200rpx
+}
+.magnui-icon-search {
+  margin-right: 10px;
+  font-size: 30rpx;
+  color:whitesmoke;
+}
+
+
+.rt{
+  margin-top: 1rpx;
+}
+
+
+ 
+

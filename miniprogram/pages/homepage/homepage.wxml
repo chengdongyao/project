@@ -1,0 +1,134 @@
+<!--顶部搜索 begin-->
+<view class="search" bindtap="search">
+
+
+     <view >
+       <icon class="magnui-icon-search" type="search" size="13"></icon>
+         搜索增高/减肥系列文章
+         
+     </view>
+
+</view>
+ 
+<view class="content">
+ <swiper indicator-dots="{{indicatorDots}}" style='height:{{height*2+80}}rpx;width:100%;'
+  autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+<swiper-item ><image class="image" style='height:{{height*2+80}}rpx;width:100%;' src="/image/haibao/1.jpg" bindtap="navBtn8"></image></swiper-item>
+<swiper-item><image class="image" style='height:{{height*2+80}}rpx;width:100%;' src="/image/haibao/2.jpg" bindtap="navBtn8"></image></swiper-item>
+<swiper-item><image class="image" style='height:{{height*2+80}}rpx;width:100%;' src="/image/haibao/3.jpg" bindtap="navBtn8"></image></swiper-item>
+<swiper-item><image class="image" style='height:{{height*2+80}}rpx;width:100%;' src="/image/guidance3.jpg" bindtap="navBtn8"></image></swiper-item>
+  
+</swiper>
+  
+    
+    
+    <!--导航-->
+    <view class="card">
+    <view class="nav" style="margin-top:20px;">
+
+     <view class="item" bindtap="navBtn">
+      <view>
+       <image src="/image/2.jpg" style="width:60rpx;height:60rpx;"></image>
+      </view>
+       <view>
+        健身计划       
+       </view>
+    </view>
+
+    <view class="item" bindtap="navBtn1">
+     <view>
+      <image src="/image/8.jpg" style="width:60rpx;height:60rpx;"></image>
+     </view>
+      <view>
+      健康运动
+      </view>
+    </view>
+
+
+
+ <view class="item" bindtap="navBtn3">
+  <view> 
+   <image src="/image/icons/5.png" style="width:60rpx;height:60rpx;"></image>
+  </view>
+   <view>
+  地图导航
+   </view>
+ </view>
+ <view class="item" bindtap="navBtn2">
+ <view>
+  <image src="/image/3.jpg" style="width:60rpx;height:60rpx;"></image>
+ </view>
+ <view>
+ BMI检测
+ </view>
+ </view>
+ <view class="item" bindtap="navBtn4">
+      <view>
+       <image src="/image/food.jpg" style="width:60rpx;height:60rpx;"></image>
+      </view>
+       <view>
+        健康饮食       
+       </view>
+    </view>
+    <view class="item" bindtap="navBtn5">
+      <view>
+       <image src="/image/air.jpg" style="width:60rpx;height:60rpx;"></image>
+      </view>
+       <view>
+        天气状况       
+       </view>
+    </view>
+<view class="item" bindtap="navBtn6">
+      <view>
+       <image src="/image/q.jpg" style="width:60rpx;height:60rpx;"></image>
+      </view>
+       <view>
+        健身器械       
+       </view>
+    </view>
+<view class="item" bindtap="navBtn7">
+      <view>
+       <image src="/image/aid.jpg" style="width:80rpx;height:60rpx;"></image>
+      </view>
+       <view>
+        受伤急救       
+       </view>
+    </view>
+
+
+ </view>
+ 
+ <view class="hr">
+  <view class="btn">· 高清视频 ·</view>
+ </view>
+ 
+
+ <!--video列表-->
+ <view class="card1">
+ <import src="/pages/post-item/post-item-template.wxml" />
+<!--<import src="/pages/post-item/post-item-template.wxml" />-->
+<view >
+    <block wx:for="{{postList}}" wx:for-item="item" wx:for-index="idx">
+        <!--//template-->
+        <view  catchtap="onPostTap" data-postId="{{item.postId}}">
+             <template is="postItem" data="{{...item}}"/>
+        </view>
+    </block>
+</view>
+</view>
+</view>
+</view>
+
+
+
+
+
+
+
+
+
+
+
+
+
+

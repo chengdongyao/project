@@ -1,0 +1,20 @@
+<view class="container1">
+  <view class="section">
+    <input placeholder="添加计划..." bindinput="inputContent" auto-focus />
+  </view>
+  <view class="tags" wx:if="{{ tags.length }}">
+    <view class="tag" wx:for="{{ tags }}" wx:key="index">
+      <text class="txt">{{ item }}</text>
+      <icon class="remove" type="clear" size="16" data-index="{{ index }}" bindtap="removeTag"/>
+    </view>
+  </view>
+  <view class="section">
+    <input placeholder="添加项目..." value="{{ tag }}" bindconfirm="addTag" wx:if="{{ tags.length < 3 }}"/>
+    <input value="最多添加三个项目" disabled wx:if="{{ tags.length >= 3 }}"/>
+  </view>
+  <view class="section">
+    <text>备注：</text>
+    <textarea bindinput="inputExtra" auto-height="true" />
+  </view>
+  <button type="primary" bindtap="create"> 添 加 </button>
+</view>

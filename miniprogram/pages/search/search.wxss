@@ -1,0 +1,54 @@
+@import "../../wxSearchView/wxSearchView.wxss";
+.tips{
+ padding: 10px;
+}
+.tip{
+  background-color: #E8E8ED;
+  height: 70rpx;
+  line-height: 80rpx;
+  border-radius: 3px;
+  text-align: center;
+  font-size: 30rpx;
+  margin-right: 20rpx;
+  float: left;
+  margin-bottom: 20rpx;
+  padding-left: 20rpx;
+  padding-right: 20rpx;
+}
+.left{
+width:80%;
+font-size: 15px
+
+}
+.title{
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+}
+.right{
+  width: 20%;
+  font-size: 13px;
+  color: #439;
+  text-align:right;
+}
+.button-hover{
+  background-color: yellowgreen;
+  opacity: 0.7;
+  size:0mm;
+}
+.other-button-hover{
+  background-color: green;
+  opacity: 0.7;
+}
+.margin-button{
+  margin-top:10px;
+  size:0mm;
+}
+.button-size{
+  width: 360rpx;
+  height:100rpx;
+  
+}
+.button-local{
+  margin-top:375rpx;
+}

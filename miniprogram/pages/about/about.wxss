@@ -1,0 +1,33 @@
+.title{
+  font-size:34rpx;
+    font-weight:600;
+    color:#333;
+    
+                     
+   
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+.content{
+    color:#666;
+    font-size:28rpx;
+    margin-bottom:20rpx;
+    margin-left: 20rpx;
+    letter-spacing:2rpx;
+    line-height: 40rpx;
+}
+.image-size{
+  width:300rpx;
+  height:300rpx;
+  margin-left:230rpx;
+}
+.title1{
+  font-size:34rpx;
+    font-weight:600;
+    color:#333;
+    
+     text-align: center;                
+   
+    margin-bottom: 10px;
+    margin-left: 10px;
+}

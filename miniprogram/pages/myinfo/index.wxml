@@ -1,0 +1,14 @@
+<view class="container1">
+  <view class="section">
+    <text>设置头像</text>
+    <image src="{{ avatar }}" bindtap="changeAvatar" />
+  </view>
+  <view class="section">
+    <text>设置昵称</text>
+    <input value="{{ name }}" bindblur="blurName" bindconfirm="changeName" auto-focus />
+  </view>
+  
+  </view>
+  
+  
+  

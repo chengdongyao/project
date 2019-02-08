@@ -1,0 +1,5 @@
+
+<view class="container1">
+  
+  <image catchtap="onMusicTap" class="audio" src="{{isPlayingMusic? '/image/music.png': '/image/music.png'}}"></image>
+  </view>

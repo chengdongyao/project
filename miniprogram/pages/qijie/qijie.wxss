@@ -1,0 +1,11 @@
+@import "/pages/post-item/post-item-template.wxss";
+.card {
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    background-color: #ffffff;
+    
+    margin-left: 75rpx;
+    margin-right: 75rpx;
+    position: relative;
+    height:250rpx;
+}

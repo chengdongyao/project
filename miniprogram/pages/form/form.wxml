@@ -1,0 +1,5 @@
+<view class="title1">成年人身体质量指数对照表</view>
+<view class="title">轻体重BMI</view>  <view class="content1">BMI小于18.5</view>
+<view class="title">健康体重BMI</view>  <view class="content1">BMI大于18.5，小于24</view>
+<view class="title">超重体重BMI</view>  <view class="content1">BMI大于24，小于28</view>
+<view class="title">肥胖体重BMI</view>  <view class="content1">BMI大于28</view>

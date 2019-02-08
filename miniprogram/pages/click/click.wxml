@@ -1,0 +1,5 @@
+<!--先静后动，先样式再数据-->
+<view class="container1">
+  
+  <button catchtap="onMusicTap" class="audio">立即阅读</button>
+  </view>

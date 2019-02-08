@@ -1,0 +1,51 @@
+{
+  "pages":["pages/homepage/homepage","pages/personal/personal","pages/hobby/hobby","pages/community/community","pages/healthyliving/healthyliving","pages/index/index","pages/local/local","pages/local-detail/local-detail",
+  "pages/search/search","pages/nextpage/nextpage"
+  ,
+  
+ "pages/video/video"
+ ,"pages/myinfo/index","pages/mystorge/index","pages/about/about","pages/content/content"
+ ,"pages/community/add","pages/literature/literature","pages/six/six","pages/post-detail/post-detail","pages/zero/zero","pages/two/two","pages/three/three","pages/four/four","pages/five/five",
+ "pages/literature/literature1" ,"pages/literature/literature2","pages/literature/literature3","pages/literature/literature4","pages/literature/literature5","pages/click/click","pages/qijie/qijie","pages/food/food","pages/air/air","pages/aid/aid","pages/food/index","pages/aid/index","pages/qijie/index","pages/form/form","pages/res/res",
+"pages/way/way" ,"pages/way/way1","pages/way/way2" ,"pages/way/way3","pages/way/way4","pages/way/way5"
+  
+  ],
+    
+  "tabBar": {
+    "list": [
+      
+      {
+        "text": "首页",
+        "pagePath": "pages/homepage/homepage",
+        "iconPath": "image/homepage.jpg",
+        "selectedIconPath": "image/homepage.jpg"
+      },
+      
+      {
+        "text": "兴趣",
+        "pagePath": "pages/hobby/hobby",
+        "iconPath": "image/icons/6.png",
+        "selectedIconPath": "image/icons/6.png"
+      },
+      {
+        "text": "个人",
+        "pagePath": "pages/personal/personal",
+        "iconPath": "image/icons/4.png",
+        "selectedIconPath": "image/icons/4.png"
+      }
+
+    ],
+    "color":"#000",
+    "selectedColor":"#00f"
+  },
+    "window": {
+      "backgroundTextStyle": "light",
+      "navigationBarBackgroundColor": "#7fabfd",
+      "navigationBarTitleText": "",
+      "navigationBarTextStyle": "light"
+    }
+}
+  
+  
+  
+  
